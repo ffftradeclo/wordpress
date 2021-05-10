@@ -5755,6 +5755,34 @@ gatsby-telemetry@^1.1.46:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
+gatsby-theme-wordpress-mdx@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-wordpress-mdx/-/gatsby-theme-wordpress-mdx-1.0.0.tgz#377edc995774285cd940c6366d81eb1b9c47c8fd"
+  integrity sha512-Bgh8/Qlyzu/PUYZIfVf74cu259cWfAUY6iEjbBFR2H7dlTdjd1e1PeVwFoCo3CeOoY8AWUERHR9tgld9nDJR2Q==
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@mdx-js/mdx" "^1.5.1"
+    "@mdx-js/react" "^1.5.1"
+    "@reach/router" "^1.2.1"
+    "@vx/scale" "^0.0.192"
+    animate.css "^3.7.2"
+    downshift "^3.4.1"
+    gatsby-awesome-pagination "^0.3.3"
+    gatsby-background-image "^0.9.11"
+    gatsby-image "^2.2.37"
+    gatsby-plugin-layout "^1.1.16"
+    gatsby-plugin-mdx "^1.0.64"
+    gatsby-plugin-react-helmet "^3.1.22"
+    gatsby-plugin-sharp "^2.3.10"
+    gatsby-plugin-theme-ui "^0.2.2"
+    gatsby-source-filesystem "^2.1.40"
+    gatsby-transformer-sharp "^2.3.9"
+    husky "^3.1.0"
+    react-animate-on-scroll "^2.1.5"
+    react-helmet "^6.0.0-beta"
+    sharp "^0.23.4"
+    theme-ui "^0.2.2"
+
 gatsby-transformer-sharp@^2.3.9:
   version "2.3.9"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.9.tgz#246dbed225079ba5cc26d56f1f6270e2d0fad8ca"
@@ -10051,8 +10079,9 @@ querystring@0.2.0, querystring@^0.2.0:
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -10624,6 +10653,7 @@ require-main-filename@^2.0.0:
 requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -12403,8 +12433,9 @@ url-parse-lax@^3.0.0:
     prepend-http "^2.0.0"
 
 url-parse@^1.1.8, url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
