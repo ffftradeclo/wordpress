@@ -5755,6 +5755,34 @@ gatsby-telemetry@^1.1.46:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
+gatsby-theme-wordpress-mdx@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-wordpress-mdx/-/gatsby-theme-wordpress-mdx-1.0.0.tgz#377edc995774285cd940c6366d81eb1b9c47c8fd"
+  integrity sha512-Bgh8/Qlyzu/PUYZIfVf74cu259cWfAUY6iEjbBFR2H7dlTdjd1e1PeVwFoCo3CeOoY8AWUERHR9tgld9nDJR2Q==
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@mdx-js/mdx" "^1.5.1"
+    "@mdx-js/react" "^1.5.1"
+    "@reach/router" "^1.2.1"
+    "@vx/scale" "^0.0.192"
+    animate.css "^3.7.2"
+    downshift "^3.4.1"
+    gatsby-awesome-pagination "^0.3.3"
+    gatsby-background-image "^0.9.11"
+    gatsby-image "^2.2.37"
+    gatsby-plugin-layout "^1.1.16"
+    gatsby-plugin-mdx "^1.0.64"
+    gatsby-plugin-react-helmet "^3.1.22"
+    gatsby-plugin-sharp "^2.3.10"
+    gatsby-plugin-theme-ui "^0.2.2"
+    gatsby-source-filesystem "^2.1.40"
+    gatsby-transformer-sharp "^2.3.9"
+    husky "^3.1.0"
+    react-animate-on-scroll "^2.1.5"
+    react-helmet "^6.0.0-beta"
+    sharp "^0.23.4"
+    theme-ui "^0.2.2"
+
 gatsby-transformer-sharp@^2.3.9:
   version "2.3.9"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.9.tgz#246dbed225079ba5cc26d56f1f6270e2d0fad8ca"
@@ -7820,13 +7848,10 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.11.1, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-
-lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+lodash@^4.11.1, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-update@^3.0.0:
   version "3.2.0"
