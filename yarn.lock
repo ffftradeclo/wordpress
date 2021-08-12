@@ -5755,6 +5755,34 @@ gatsby-telemetry@^1.1.46:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
+gatsby-theme-wordpress-mdx@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-wordpress-mdx/-/gatsby-theme-wordpress-mdx-1.0.0.tgz#377edc995774285cd940c6366d81eb1b9c47c8fd"
+  integrity sha512-Bgh8/Qlyzu/PUYZIfVf74cu259cWfAUY6iEjbBFR2H7dlTdjd1e1PeVwFoCo3CeOoY8AWUERHR9tgld9nDJR2Q==
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@mdx-js/mdx" "^1.5.1"
+    "@mdx-js/react" "^1.5.1"
+    "@reach/router" "^1.2.1"
+    "@vx/scale" "^0.0.192"
+    animate.css "^3.7.2"
+    downshift "^3.4.1"
+    gatsby-awesome-pagination "^0.3.3"
+    gatsby-background-image "^0.9.11"
+    gatsby-image "^2.2.37"
+    gatsby-plugin-layout "^1.1.16"
+    gatsby-plugin-mdx "^1.0.64"
+    gatsby-plugin-react-helmet "^3.1.22"
+    gatsby-plugin-sharp "^2.3.10"
+    gatsby-plugin-theme-ui "^0.2.2"
+    gatsby-source-filesystem "^2.1.40"
+    gatsby-transformer-sharp "^2.3.9"
+    husky "^3.1.0"
+    react-animate-on-scroll "^2.1.5"
+    react-helmet "^6.0.0-beta"
+    sharp "^0.23.4"
+    theme-ui "^0.2.2"
+
 gatsby-transformer-sharp@^2.3.9:
   version "2.3.9"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.9.tgz#246dbed225079ba5cc26d56f1f6270e2d0fad8ca"
@@ -9308,8 +9336,9 @@ path-key@^3.0.0, path-key@^3.1.0:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
