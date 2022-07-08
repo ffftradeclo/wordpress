@@ -5755,6 +5755,34 @@ gatsby-telemetry@^1.1.46:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
+gatsby-theme-wordpress-mdx@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-wordpress-mdx/-/gatsby-theme-wordpress-mdx-1.0.0.tgz#377edc995774285cd940c6366d81eb1b9c47c8fd"
+  integrity sha512-Bgh8/Qlyzu/PUYZIfVf74cu259cWfAUY6iEjbBFR2H7dlTdjd1e1PeVwFoCo3CeOoY8AWUERHR9tgld9nDJR2Q==
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@mdx-js/mdx" "^1.5.1"
+    "@mdx-js/react" "^1.5.1"
+    "@reach/router" "^1.2.1"
+    "@vx/scale" "^0.0.192"
+    animate.css "^3.7.2"
+    downshift "^3.4.1"
+    gatsby-awesome-pagination "^0.3.3"
+    gatsby-background-image "^0.9.11"
+    gatsby-image "^2.2.37"
+    gatsby-plugin-layout "^1.1.16"
+    gatsby-plugin-mdx "^1.0.64"
+    gatsby-plugin-react-helmet "^3.1.22"
+    gatsby-plugin-sharp "^2.3.10"
+    gatsby-plugin-theme-ui "^0.2.2"
+    gatsby-source-filesystem "^2.1.40"
+    gatsby-transformer-sharp "^2.3.9"
+    husky "^3.1.0"
+    react-animate-on-scroll "^2.1.5"
+    react-helmet "^6.0.0-beta"
+    sharp "^0.23.4"
+    theme-ui "^0.2.2"
+
 gatsby-transformer-sharp@^2.3.9:
   version "2.3.9"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.9.tgz#246dbed225079ba5cc26d56f1f6270e2d0fad8ca"
@@ -8333,9 +8361,9 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
     minimist "0.0.8"
 
 moment@^2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
